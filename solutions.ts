@@ -6,6 +6,7 @@ const filterEvenNumbers = (value: number[]): number[] => {
 
 
 // problem-2:
+
 const reverseString=(value:string):string=>{
   let rev="";
   for(const beta of value)
@@ -15,6 +16,7 @@ const reverseString=(value:string):string=>{
   }
   return rev;
 }
+
 
 // Problem 3:
 
@@ -39,4 +41,79 @@ const user = {
   name: "John Doe", 
   age: 21 
 };
-getProperty(user,'name')
+getProperty(user,'name');
+
+
+
+// Problem-5
+
+interface Book{
+ 
+title: string;
+ author: string;
+publishedYear: number;
+
+};
+
+
+const toggleReadStatus=(user:Book)=>{
+return {...user,isRead:true };
+
+}
+
+  const myBook:Book = { 
+    title: "TypeScript Guide",
+     author: "Jane Doe",
+      publishedYear: 2024,
+      
+     };
+
+
+//problem-6
+
+     class Person {
+
+      name: string;
+      age: number;
+
+    constructor(
+      name: string,
+      age: number
+    )
+      {
+        this.name=name;
+        this.age=age;
+      }
+
+     }
+
+     class Student extends Person{
+      grade: string;
+
+      constructor(name:string,age:number,grade:string)
+      {
+        super(name,age);
+        this.grade=grade;
+      }
+      getDetails(){
+        return  `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}` ;
+      }
+
+     }
+
+ const student= new Student("Alice",34,"B");
+   student.getDetails();  
+
+
+
+// Problem 7:
+
+
+
+const getIntersection=(num1:number[], num2:number[]):number[]=>{
+const result= num1.filter(digit=>num2.includes(digit))
+return result;
+}
+getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+
+
