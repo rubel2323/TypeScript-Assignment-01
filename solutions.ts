@@ -56,7 +56,7 @@ publishedYear: number;
 };
 
 
-const toggleReadStatus=(user:Book)=>{
+const toggleReadStatus=(user:Book):Book & {isRead:boolean}=>{
 return {...user,isRead:true };
 
 }
@@ -67,10 +67,9 @@ return {...user,isRead:true };
       publishedYear: 2024,
       
      };
-
+toggleReadStatus(myBook);
 
 //problem-6
-
      class Person {
 
       name: string;
@@ -107,8 +106,6 @@ return {...user,isRead:true };
 
 
 // Problem 7:
-
-
 
 const getIntersection=(num1:number[], num2:number[]):number[]=>{
 const result= num1.filter(digit=>num2.includes(digit))
