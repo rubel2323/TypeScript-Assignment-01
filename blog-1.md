@@ -55,7 +55,7 @@ So, it belongs common functionality and hierarchical structure.Changes in one cl
 ---
 
 # 2.Polymorphism
-It allows developer to use same method in various class as it means literally "many shapes". It helps us by making code flexible.
+It allows developer to use same method in various class as it means literally "many shapes". It helps us by making code flexible.It also allows developer to write generic code without using unnecessary loops in some moments.
 
 
 
@@ -100,7 +100,7 @@ Thus Polymorphism makes extensibility when necessary.
 ---
 
 # 3.Abstraction
-It hides complexity and shows only necessary feature for us.It may be made with `interface` or `abstract class` keyword.
+It hides complexity and shows only necessary feature for us.It may be made with `interface` or `abstract class` keyword. Caller function must know only abstract method without internal code complexity.
 
 ```typeScript
 interface Mediaplayer {
@@ -193,7 +193,7 @@ account.deposit(500);
 
 ```
 ## Conclusion
-By encapsulation validation logic can be controlled by getter and setter for outside state.
+By encapsulation validation logic can be controlled by getter and setter from outside state.
 
 
 
