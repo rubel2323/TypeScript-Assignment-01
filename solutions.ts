@@ -6,7 +6,7 @@
 const filterEvenNumbers = (value: number[]): number[] => {
   return value.filter((digit) => digit % 2 === 0);
 };
-
+filterEvenNumbers([1, 2, 3, 4, 5, 6]);
 
 
 
@@ -25,7 +25,7 @@ const reverseString=(value:string):string=>{
   }
   return rev;
 }
-
+reverseString("typescript");
 
 
 // Problem 3:
@@ -44,7 +44,8 @@ if(typeof userInfo==='number'){
   return 'number';
 }
 }
-
+checkType("Hello");
+checkType(42);
 
 //  Problem 4:
 // Write a generic function getProperty that takes an object and a key, then returns the value of that key. Use constraints to ensure the key exists on the object.
