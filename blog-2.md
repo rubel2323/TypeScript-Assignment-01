@@ -47,7 +47,6 @@ The word narrow means to make short from various type of data to more specific d
 ## 5.Custom type guard -- developer made when necessary
 ` type User = { name: string; age: number };`
  
-
 Thus, TypeScript allows automatic flow analysis by type tracking block and perform necessary operation.
 
 
