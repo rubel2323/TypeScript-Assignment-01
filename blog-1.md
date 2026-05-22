@@ -194,6 +194,8 @@ account.deposit(500);
 ```
 
 By encapsulation validation logic can be controlled by getter and setter from outside state.
+
+
 ---
 ---
 ---
