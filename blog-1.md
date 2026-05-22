@@ -100,7 +100,7 @@ Thus Polymorphism makes extensibility when necessary.
 ---
 
 # 3.Abstraction
-It hides complexity and shows only necessary feature for us.It may be made with `interface` or `abstract class` keyword. Caller function must know only abstract method without internal code complexity.
+It hides complexity and shows only necessary feature for us.It may be made with `interface` or `abstract class` keyword. Caller  must know only abstract method without internal code complexity.
 
 ```typeScript
 interface Mediaplayer {
