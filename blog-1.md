@@ -47,7 +47,7 @@ console.log(object_A.age);
 object_A.makeDaily();
 
 ```
-## Conclusion
+
 So, it belongs common functionality and hierarchical structure.Changes in one class will change every place as permitted with modifiers.
 
 ---
@@ -92,7 +92,7 @@ funcName(obj3);
 
 ```
 
-## Conclusion
+
 Thus Polymorphism makes extensibility when necessary.
 
 ---
@@ -160,7 +160,7 @@ SocialMusicPlayer1.showInfo();
 
 ```
 
-## conclusion
+
 In complex system,for example:Payment GateWay, we do need to change whole system without a new class implementation.
 Thus abstract helps developer to interact with big system by normal interface.
 
@@ -192,8 +192,8 @@ const account = new MyBankAccount();
 account.deposit(500);
 
 ```
-## Conclusion
+
 By encapsulation validation logic can be controlled by getter and setter from outside state.
 
 
-
+So, OOP in TypeScript helps update,control,team-collaboration very easily and in a cleaner way.
