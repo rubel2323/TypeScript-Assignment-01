@@ -194,6 +194,8 @@ account.deposit(500);
 ```
 
 By encapsulation validation logic can be controlled by getter and setter from outside state.
-
+---
+---
+---
 
 So, OOP in TypeScript helps update,control,team-collaboration very easily and in a cleaner way.
